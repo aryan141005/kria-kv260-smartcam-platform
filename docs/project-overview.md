@@ -69,3 +69,16 @@ The PetaLinux project was configured and the build was initiated. However, the b
 This repository organizes the technical architecture, tools, development workflow and build observations associated with the Kria KV260 SmartCam project.
 
 It is intended as technical documentation and a learning reference, rather than a claim that every implementation stage was independently developed by the repository owner.
+
+## SmartCam Development Workflow
+
+```mermaid
+flowchart TD
+    A[KV260 Hardware Platform] --> B[Vivado Hardware Design]
+    B --> C[Export Hardware XSA]
+    C --> D[Vitis Platform Development]
+    D --> E[DPU Kernel and Acceleration Overlay]
+    E --> F[Device Tree Overlay]
+    F --> G[PetaLinux Configuration]
+    G --> H[PetaLinux Build]
+    H --> I[Dependency Fetch Errors]
