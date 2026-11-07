@@ -1,11 +1,5 @@
-# Project Screenshots
+## Vivado Hardware Design
 
-This directory contains visual documentation of the
-SmartCam development workflow on the AMD Kria KV260.
+![Reference Vivado block design of the KV260 SmartCam platform](vivado-kv260-block-design.png)
 
-Screenshots may include:
-- Vivado hardware design
-- Vitis development environment
-- PetaLinux build workflow
-- Yocto and BitBake build process
-- Embedded Linux configuration
+*Reference block design. This image illustrates the reference platform architecture and is not claimed as an independently developed design.*
