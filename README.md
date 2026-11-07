@@ -45,3 +45,24 @@ Detailed documentation, technical notes, and supporting material are organized i
 ## Note
 
 This repository documents the development workflow and project artifacts that are available for sharing. Build completion and on-board functionality are reported only where supported by actual test evidence.
+
+## Project Status
+
+| Component | Status |
+|---|---|
+| Vivado hardware platform design | Documented |
+| Hardware XSA export | Documented |
+| Vitis platform development | Documented |
+| DPU acceleration artifacts | Documented |
+| Device tree overlay | Documented |
+| PetaLinux configuration | Documented |
+| Full PetaLinux build | Blocked by dependency-fetch errors |
+| Board boot and runtime validation | Not verified |
+
+## Project Documentation
+
+Detailed technical documentation is available in the [`docs/`](docs/) directory.
+
+## Screenshots and References
+
+See [`screenshots/`](screenshots/) for reference design evidence and supporting visuals.
