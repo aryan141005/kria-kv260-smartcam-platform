@@ -9,6 +9,12 @@ This project focuses on the development and integration workflow of a SmartCam p
 
 The work explores the hardware and software development flow for an embedded vision platform, including FPGA hardware design, software development, embedded Linux configuration, and the associated build environment.
 
+## Hardware Architecture
+
+![KV260 SmartCam Vivado Block Design](screenshots/vivado-kv260-block-design.png)
+
+*Reference Vivado block design of the KV260 SmartCam platform. See the screenshots directory for attribution.*
+
 ## Platform and Technologies
 
 - **Hardware Platform:** AMD Kria KV260
