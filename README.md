@@ -25,6 +25,16 @@ The work explores the hardware and software development flow for an embedded vis
 - **Build System:** Yocto Project and BitBake
 - **Software Components:** Device Tree Overlays and Embedded Linux
 
+  ## Key Technical Areas
+
+- FPGA-based hardware platform development using Vivado
+- Zynq UltraScale+ MPSoC hardware architecture
+- Vitis platform development and DPU acceleration workflow
+- Hardware handoff using XSA
+- Device Tree generation and overlay integration
+- PetaLinux configuration and Yocto/BitBake build workflow
+- Embedded Linux and FPGA manager integration
+
 ## Development Workflow
 
 1. **Hardware Design:** Explore the hardware platform design and hardware handoff workflow using Vivado.
